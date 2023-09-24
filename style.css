@@ -1,0 +1,117 @@
+#h1_article{ /* Блок контента */
+    margin-bottom: 5px; /* Отступ блока статьи от блока подвала */
+    width: 676px; /* Ширина статьи */
+    padding: 10px; /* Отступ текста от краёв блока */
+    background: #ffffff; /* Фон статьи */
+    border-radius: 5px;
+    background-position: center;
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+
+#content{ /* Блок контента */
+    margin-bottom: 5px; /* Отступ блока статьи от блока подвала */
+    width: auto; /* Ширина статьи */
+    padding: 10px; /* Отступ текста от краёв блока */
+    background: #ffffff; /* Фон статьи */
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+
+#footer{
+    position: relative;
+    text-align: center;
+    image-orientation:from-image;
+    border: 1px solid black;
+    border-width: thin medium thick;  
+    color: rgb(0, 9, 139);
+}
+
+.heading{
+    position: relative;
+    text-align: center;
+    image-orientation:from-image;
+    border: 1px solid black;
+    border-width: thin medium thick;  
+    color: rgb(0, 139, 104);
+   
+}
+
+.border{
+    margin-bottom: 5px; /* Отступ блока статьи от блока подвала */
+    width: 676px; /* Ширина статьи */
+    padding: 10px; /* Отступ текста от краёв блока */
+    background: #ffffff; /* Фон статьи */
+    border-radius: 5px;
+    background-position: center;
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+    border-width: (1px 1px 1px 1px);
+    border: 1px solid black;
+}
+
+.title{
+    font-family: "Times New Roman", serif, verdana;
+    font-size:  20px;;
+    padding: 10px;
+}
+
+.heading-about{
+    color: orange;
+}
+
+.header{
+    position:relative; /* Задаём блоку относительное позиционирование для того, чтобы затем размещать, в нём другие элементы и позиционировать относительно его границ поверх фоновой картинки и заголовка */
+  height: 250px; /* Высота шапки */
+  background-color: #ffffff; /* Фон шапки */
+   margin-bottom: 5px; /* Нижний отступ шапки от остального контента */
+  border-radius: 5px; /* Закругляются углы блока */
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
+}
+
+.img{
+    /* Фоновая картинка в шапке */
+float:inline-end; /* Разрешаем наплывание других элементов на картинку */
+margin: 0px 40px 40px 9cm;} /* Размещаем картинку в блоке header. 1-я и 3-я цифры - двигаем вверх-вниз, 2-я и 4-я цифры - двигаем вправо-влево */
+h1{ /* Заголовок сайта */
+margin:0 200 200 0; /* Заголовок двигается верх-вправо-вниз-влево. */
+}
+
+.img1{
+    /* Фоновая картинка в шапке */
+position:relative;
+float:inline-start; /* Разрешаем наплывание других элементов на картинку */
+margin: auto 5cm auto auto;} /* Размещаем картинку в блоке header. 1-я и 3-я цифры - двигаем вверх-вниз, 2-я и 4-я цифры - двигаем вправо-влево */
+
+.img2{
+     /* Фоновая картинка в шапке */
+object-fit: cover;
+float:left;
+overflow:hidden;
+position:relative;
+width:220px;
+margin-bottom: 25px;
+float:right;
+height:220px;
+margin: auto auto auto auto;} /* Размещаем картинку в блоке header. 1-я и 3-я цифры - двигаем вверх-вниз, 2-я и 4-я цифры - двигаем вправо-влево */
+
+.img3{
+      /* Фоновая картинка в шапке */
+object-fit: cover;
+float:left;
+overflow:hidden;
+position:relative;
+width:320px;
+margin-bottom: 25px;
+float:right;
+height:220px;
+margin: auto 2cm auto -18cm;} /* Размещаем картинку в блоке header. 1-я и 3-я цифры - двигаем вверх-вниз, 2-я и 4-я цифры - двигаем вправо-влево */
+
+.img4{
+    top: 6%;
+    left: 15%;
+    position:absolute;
+    width:130px;
+    margin-bottom: 25px;
+    float:inline-end;
+    height:20px;
+    margin: 1cm 1cm 1cm 10cm;
+    }

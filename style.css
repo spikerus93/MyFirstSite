@@ -1,3 +1,7 @@
+.body{
+    background-color: rgb(189, 174, 196);
+}
+
 #h1_article{ /* Блок контента */
     margin-bottom: 5px; /* Отступ блока статьи от блока подвала */
     width: 676px; /* Ширина статьи */
@@ -19,11 +23,14 @@
 
 #footer{
     position: relative;
-    text-align: center;
-    image-orientation:from-image;
+    text-align:left;
+    width: 1100;
+    height: 200;
     border: 1px solid black;
     border-width: thin medium thick;  
-    color: rgb(0, 9, 139);
+    color: rgb(86, 57, 247);
+    background-image: url(img/boxer_dog11.jpg);
+    image-orientation:from-image;
 }
 
 .heading{
@@ -32,7 +39,7 @@
     image-orientation:from-image;
     border: 1px solid black;
     border-width: thin medium thick;  
-    color: rgb(0, 139, 104);
+    color: rgb(38, 18, 128);
    
 }
 
@@ -61,7 +68,7 @@
 .header{
     position:relative; /* Задаём блоку относительное позиционирование для того, чтобы затем размещать, в нём другие элементы и позиционировать относительно его границ поверх фоновой картинки и заголовка */
   height: 250px; /* Высота шапки */
-  background-color: #ffffff; /* Фон шапки */
+  background-color:bisque; /* Фон шапки */
    margin-bottom: 5px; /* Нижний отступ шапки от остального контента */
   border-radius: 5px; /* Закругляются углы блока */
   box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
